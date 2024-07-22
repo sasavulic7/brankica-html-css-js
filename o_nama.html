@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt</title>
+    <link rel="icon" href="slike/logo.PNG" type="image/x-icon" />
+
+    <style>
+      html,
+      body {
+        background: linear-gradient(
+          180deg,
+          rgb(70, 255, 147) 0%,
+          rgba(255, 255, 255, 1) 100%
+        );
+        margin: 0;
+      }
+
+      .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.image {
+    flex: 1;
+    margin: 0 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image:hover img {
+    transform: scale(1.05);
+}
+    </style>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="#" class="navbar-logo">Zdravlje++</a>
+        <ul class="navbar-menu">
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link">Početna</a>
+          </li>
+          <li class="navbar-item">
+            <a href="o_nama.html" class="navbar-link">O nama</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="kont"><h1>O nama</h1></div>
+
+     <main>
+        <section id="about">
+            <div class="about-left">
+                <h2>O nama</h2>
+                <p>Apoteka Zdravlje++ je porodična apoteka osnovana 1990. godine. Naša misija je pružanje vrhunskih farmaceutskih usluga i podrške našoj zajednici. Naš tim čine stručni farmaceuti koji su posvećeni vašem zdravlju i blagostanju.</p>
+                <p>U našoj apoteci možete pronaći širok asortiman lekova na recept i bez recepta, dodataka ishrani, kozmetičkih proizvoda i još mnogo toga.</p>
+                <p>Radno vreme:</p>
+                <ul>
+                    <li>Ponedeljak - Petak: 8:00 - 20:00</li>
+                    <li>Subota: 8:00 - 15:00</li>
+                    <li>Nedelja: Zatvoreno</li>
+                </ul>
+            </div>
+            
+        </section>
+    </main>
+
+    <div class="container">
+        <div class="image">
+            <img src="slike/apoteka.jpg" alt="Slika 1">
+        </div>
+        <div class="image">
+            <img src="slike/apoteka2.jpg" alt="Slika 2">
+        </div>
+        <div class="image">
+            <img src="slike/apoteka3.jpg" alt="Slika 3">
+        </div>
+    </div>
+  
+    
+    </div>
+  </body>
+</html>
